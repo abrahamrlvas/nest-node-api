@@ -1,6 +1,6 @@
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+REST API o servicio hecho con nestjs, haciendo uso de PostgresSQL conectado desde docker
 
 ## Installation
 
@@ -21,6 +21,12 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
+## Running the database
+
+```bash
+#Docker run
+$ docker-compose up
+
 ## Test
 
 ```bash
@@ -37,7 +43,7 @@ $ npm run test:cov
 ## Stay in touch
 
 - Author - [Abraham Rivas]
-- Twitter - [Linkedin](https://www.linkedin.com/in/abraham-rivas-63100b219/)
+- Linkedin - [Linkedin](https://www.linkedin.com/in/abraham-rivas-63100b219/)
 
 ## License
 
